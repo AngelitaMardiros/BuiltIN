@@ -1,0 +1,32 @@
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+
+
+<script type="text/javascript">
+(function($) {
+$(document).ready(function() {
+$('.et_pb_portfolio_grid .et_pb_portfolio_item').each(function() {
+var title = $(this).find('h2');
+p = $(this).find('p');
+$(title).appendTo($(this).find('.et_portfolio_image .et_overlay'));
+$(p).appendTo($(this).find('.et_portfolio_image .et_overlay'));
+});
+});
+})(jQuery);
+</script>
+
+
+
+<script type="text/javascript">
+(function($) {
+$(document).ready(function() {
+$('.et_pb_gallery_grid .et_pb_gallery_item').each(function() {
+var title = $(this).find('h2');
+p = $(this).find('p');
+$(title).appendTo($(this).find('.et_gallery_image .et_overlay'));
+$(p).appendTo($(this).find('.et_gallery_image .et_overlay'));
+});
+});
+})(jQuery);
+</script>
+
+
